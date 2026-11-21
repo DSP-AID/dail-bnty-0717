@@ -1,0 +1,247 @@
+{
+ "dataset": "NFL Big Data Bowl 2027 (Kaggle nfl-big-data-bowl-2027)",
+ "sections": {
+  "C1.tracking_rows": 463189,
+  "C1.events": 6310,
+  "C1.players_tracked": 510,
+  "C1.events_by_draft_year": {
+   "2023": 1966,
+   "2024": 2171,
+   "2025": 2173
+  },
+  "C2.exact_dup_rows": 0,
+  "C2.dup_event_time_entity": 0,
+  "C2.dup_event_time": 32095,
+  "C2.ball_events": 551,
+  "C2.player_only_slots_in_ball_events": 311,
+  "C2.ball_only_slots_in_ball_events": 0,
+  "C3.tracking_null_cells": 0,
+  "C3.combine_results_nulls": {
+   "ten_yd_split": 85,
+   "forty": 86,
+   "vertical": 72,
+   "broad_jump": 87,
+   "three_cone": 330,
+   "short_shuttle": 309,
+   "bench_reps": 318,
+   "ngs_college_production_score": 1,
+   "ngs_final_score": 1
+  },
+  "C3.players_nulls": {
+   "draft_round": 127,
+   "draft_pick_within_round": 127,
+   "draft_overall_pick": 127
+  },
+  "C3.career_null_cells": 0,
+  "C3.cr_forty_null": 86,
+  "C3.cr_ten_yd_null": 85,
+  "C3.cr_three_cone_null": 330,
+  "C3.cr_short_shuttle_null": 309,
+  "C3.cr_bench_null": 318,
+  "C3.cr_vertical_null": 72,
+  "C3.cr_broad_jump_null": 87,
+  "C3.ngs_final_null": 1,
+  "C3.players_udfa_null": 127,
+  "C4.distinct_attempt_keys": 3717,
+  "C4.multi_event_attempt_keys": 514,
+  "C4.events_in_multi_event_keys": 3107,
+  "C4.redundant_event_ids": 2593,
+  "C4.rows_in_multi_event_keys": 223772,
+  "C4.max_events_per_attempt_key": 13,
+  "C4.multi_keys_by_drill_type": {
+   "SKILL_DRILLS_DB": 147,
+   "SKILL_DRILLS_WR": 114,
+   "SKILL_DRILLS_DL": 112,
+   "SKILL_DRILLS_OL": 88,
+   "SKILL_DRILLS_TE": 46,
+   "SKILL_DRILLS_LB": 7
+  },
+  "C4.forty_multi_event_keys": 0,
+  "C4.duplicate_session_gap_hours_min": 0.08,
+  "C4.duplicate_session_gap_hours_median": 0.69,
+  "C4.duplicate_session_gap_hours_max": 1.42,
+  "C4.duplicate_key_windows_overlapping": 0,
+  "C5.frame_gaps_gt_0.15s": 0,
+  "C5.negative_time_deltas": 0,
+  "C5.events_le_20_rows": 4,
+  "C5.events_lt_1.5s": 3,
+  "C5.shortest_events": [
+   {
+    "event_id": "20240303101000_1709502890626_000",
+    "rows": 10,
+    "duration_s": 0.9
+   },
+   {
+    "event_id": "20240301100300_1709331900370_000",
+    "rows": 11,
+    "duration_s": 1.0
+   },
+   {
+    "event_id": "20250228100500_1740793859122_000",
+    "rows": 12,
+    "duration_s": 1.1
+   },
+   {
+    "event_id": "20250302101000_1740950071992_000",
+    "rows": 19,
+    "duration_s": 1.8
+   }
+  ],
+  "C5.attempt_groups": 1258,
+  "C5.groups_missing_attempt_1": 153,
+  "C5.groups_interior_holes": 84,
+  "C5.forty_players_tracked": 418,
+  "C5.forty_events": 793,
+  "C5.forty_stopwatch_no_sensor": 6,
+  "C5.forty_sensor_no_stopwatch": 0,
+  "C5.three_cone_stopwatch_no_sensor": 30,
+  "C5.three_cone_sensor_no_stopwatch": 10,
+  "C5.shuttle_stopwatch_no_sensor": 41,
+  "C5.shuttle_sensor_no_stopwatch": 10,
+  "C5.ball_rows": 32095,
+  "C5.ball_events": 551,
+  "C5.ball_drill_names": 18,
+  "C5.total_drill_names": 56,
+  "C5.ball_drill_types": [
+   "SKILL_DRILLS_TE",
+   "SKILL_DRILLS_WR"
+  ],
+  "C6.event_id_regex_rows": 327092,
+  "C6.objectid_rows": 136097,
+  "C6.objectid_events": 1966,
+  "C6.ts_format_events_2024": 2171,
+  "C6.ts_format_events_2025": 2173,
+  "C6.time_frac_digit_variants": 1,
+  "C6.y_out_of_bounds_rows": 50360,
+  "C6.y_out_of_bounds_by_drill": {
+   "FORTY_YARD_DASH": 41285,
+   "SKILL_DRILLS_DB": 2949,
+   "SKILL_DRILLS_DL": 10,
+   "SKILL_DRILLS_OL": 20,
+   "SKILL_DRILLS_TE": 1477,
+   "SKILL_DRILLS_WR": 4595,
+   "THREE_CONE_DRILL": 24
+  },
+  "C6.x_out_of_bounds_rows": 0,
+  "C6.forty_y_min": -2.246992588,
+  "C6.forty_y_max": 2.7,
+  "C6.consecutive_frames": 456328,
+  "C6.dis_mismatch_frames": 426473,
+  "C6.dis_median_abs_error_yd": 0.213,
+  "C6.speed_dis_mismatch_frames": 451932,
+  "C6.forty_median_sum_dis_yd": 36.74,
+  "C6.forty_median_x_span_yd": 40.43,
+  "C6.drill_name_cross_type": 5,
+  "C6.drill_name_cross_type_list": [
+   "BACK_PEDAL_AND_REACT",
+   "GAUNTLET_DRILL",
+   "OVER_SHOULDER_ADJUST",
+   "PASS_RUSH_DRILL",
+   "SHORT_ZONE_BREAKS"
+  ],
+  "C7.players_rows": 510,
+  "C7.players_dup_nfl_id": 0,
+  "C7.combine_results_rows": 510,
+  "C7.combine_results_dup_nfl_id": 0,
+  "C7.career_rows": 510,
+  "C7.career_dup_nfl_id": 0,
+  "C7.games_rows": 1002,
+  "C7.games_dup_game_id": 0,
+  "C7.orphan_tracking_players": 0,
+  "C7.players_without_tracking": 0,
+  "C7.draft_year_mismatch_rows": 0,
+  "C7.id_sets_identical": true
+ },
+ "inventory": {
+  "players.csv": {
+   "bytes": 47301,
+   "parsed_rows": 510,
+   "raw_lines_minus_header": 510,
+   "sha256": "2cd7e0309e7aa40533028dc537c2c877dbedbe0fdb14f337fc18af31a5861c12"
+  },
+  "combine_results.csv": {
+   "bytes": 41020,
+   "parsed_rows": 510,
+   "raw_lines_minus_header": 510,
+   "sha256": "e4773ef68167d508f3916d446cd411dfd77a87e5765d3babcb986201fb143b86"
+  },
+  "player_career_successes.csv": {
+   "bytes": 13801,
+   "parsed_rows": 510,
+   "raw_lines_minus_header": 510,
+   "sha256": "0d4b8975debda4e2481218f30a16429dad5b806ecdd2fc4367291ac1460ed0a9"
+  },
+  "games.csv": {
+   "bytes": 43174,
+   "parsed_rows": 1002,
+   "raw_lines_minus_header": 1002,
+   "sha256": "ca33543f6939af4ee393c568c60920c476ba91ddbfbdce5a06578b9492fa11fd"
+  },
+  "combine_tracking.csv": {
+   "bytes": 83788174,
+   "parsed_rows": 463189,
+   "raw_lines_minus_header": 463189,
+   "sha256": "541c69f6629f5f803b08033c5c386735582120973562134b2c1e7ec6553fb0d3"
+  },
+  "player_play.csv": {
+   "bytes": 146879042,
+   "parsed_rows": 314197,
+   "raw_lines_minus_header": 327019,
+   "sha256": "68926a268c0a49e58616001fb35ea179018d9cbbce1c5c31e7a4095273c35b2a"
+  },
+  "game_tracking_2023.csv": {
+   "bytes": 335463637,
+   "parsed_rows": 3665443,
+   "raw_lines_minus_header": 3665443,
+   "sha256": "385e620b6b94e8cd91f0d5776395b76b10d52a34401c764c21b4e98ab617855c"
+  },
+  "game_tracking_2024.csv": {
+   "bytes": 717952893,
+   "parsed_rows": 7827944,
+   "raw_lines_minus_header": 7827944,
+   "sha256": "06b7f34304414306dab53d5cb4c5d28485c5f62376442bcb913f9f01184ece6d"
+  },
+  "game_tracking_2025.csv": {
+   "bytes": 1022575093,
+   "parsed_rows": 11160903,
+   "raw_lines_minus_header": 11160903,
+   "sha256": "419b6bc0388a9210f61911ec2f1351b1e8d56355c0ac8576f24a3bbcd95e54ca"
+  }
+ },
+ "game_scope": {
+  "status": "full game files present - G8/G9 executed",
+  "G8.player_play_parsed_rows": 314197,
+  "G8.player_play_raw_lines": 327019,
+  "G8.embedded_newline_lines": 12822,
+  "G8.typo_column_present": 1,
+  "G8.pp_dup_player_play_keys": 0,
+  "G8.pp_orphan_games": 0,
+  "G8.pp_orphan_players": 0,
+  "G8.pp_wp_sum_violations": 0,
+  "G8.pp_cols_over_90pct_null": 16,
+  "G8.pp_down_values": {
+   "1": 130667,
+   "2": 103495,
+   "3": 71072,
+   "4": 8002,
+   "0": 961
+  },
+  "G8.games_season_type_counts": {
+   "REG": 816,
+   "PRE": 147,
+   "POST": 39
+  },
+  "G9.gt2023_rows": 3665443,
+  "G9.gt2023_x_oob": 225,
+  "G9.gt2023_y_oob": 5894,
+  "G9.gt2024_rows": 7827944,
+  "G9.gt2024_x_oob": 542,
+  "G9.gt2024_y_oob": 12183,
+  "G9.gt2025_rows": 11160903,
+  "G9.gt2025_x_oob": 637,
+  "G9.gt2025_y_oob": 15873,
+  "G9.gt_orphan_games": 0,
+  "G9.gt_season_file_mismatches": 0,
+  "G9.gt_dup_frames": 0
+ }
+}

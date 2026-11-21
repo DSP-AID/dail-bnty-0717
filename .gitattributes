@@ -1,0 +1,3 @@
+# Byte-exact data files: the audit's checksums.json pins sha256 of the official
+# Kaggle release bytes; git must not normalize line endings (NFL CSVs are CRLF).
+* -text

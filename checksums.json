@@ -1,0 +1,91 @@
+{
+ "source": {
+  "competition": "https://www.kaggle.com/competitions/nfl-big-data-bowl-2027/data (official, requires Kaggle login + rule acceptance)",
+  "obtained_via": "public Kaggle dataset mirror https://www.kaggle.com/datasets/prajwal02thakare/nfl-big-data-bowl-2027 (anonymous download, archive size 512,718,152 bytes == Kaggle-reported totalBytes)",
+  "cross_validated_against": "independent community data dictionary github.com/maxquirk/big-data-bowl docs/data.md (parsed row counts match exactly: player_play 314197, game_tracking 3665443/7827944/11160903, combine_tracking ~463K)",
+  "license": "CC BY-NC 4.0 (NFL Big Data Bowl release terms)",
+  "retrieved_utc": "2026-11-21"
+ },
+ "official_files": {
+  "players.csv": {
+   "bytes": 47301,
+   "sha256": "2cd7e0309e7aa40533028dc537c2c877dbedbe0fdb14f337fc18af31a5861c12",
+   "raw_lines_minus_header": 510,
+   "shipped_in_repo_data": true
+  },
+  "combine_results.csv": {
+   "bytes": 41020,
+   "sha256": "e4773ef68167d508f3916d446cd411dfd77a87e5765d3babcb986201fb143b86",
+   "raw_lines_minus_header": 510,
+   "shipped_in_repo_data": true
+  },
+  "combine_tracking.csv": {
+   "bytes": 83788174,
+   "sha256": "541c69f6629f5f803b08033c5c386735582120973562134b2c1e7ec6553fb0d3",
+   "raw_lines_minus_header": 463189,
+   "shipped_in_repo_data": true
+  },
+  "player_career_successes.csv": {
+   "bytes": 13801,
+   "sha256": "0d4b8975debda4e2481218f30a16429dad5b806ecdd2fc4367291ac1460ed0a9",
+   "raw_lines_minus_header": 510,
+   "shipped_in_repo_data": true
+  },
+  "games.csv": {
+   "bytes": 43174,
+   "sha256": "ca33543f6939af4ee393c568c60920c476ba91ddbfbdce5a06578b9492fa11fd",
+   "raw_lines_minus_header": 1002,
+   "shipped_in_repo_data": true
+  },
+  "player_play.csv": {
+   "bytes": 146879042,
+   "sha256": "68926a268c0a49e58616001fb35ea179018d9cbbce1c5c31e7a4095273c35b2a",
+   "raw_lines_minus_header": 327019,
+   "shipped_in_repo_data": false
+  },
+  "game_tracking_2023.csv": {
+   "bytes": 335463637,
+   "sha256": "385e620b6b94e8cd91f0d5776395b76b10d52a34401c764c21b4e98ab617855c",
+   "raw_lines_minus_header": 3665443,
+   "shipped_in_repo_data": false
+  },
+  "game_tracking_2024.csv": {
+   "bytes": 717952893,
+   "sha256": "06b7f34304414306dab53d5cb4c5d28485c5f62376442bcb913f9f01184ece6d",
+   "raw_lines_minus_header": 7827944,
+   "shipped_in_repo_data": false
+  },
+  "game_tracking_2025.csv": {
+   "bytes": 1022575093,
+   "sha256": "419b6bc0388a9210f61911ec2f1351b1e8d56355c0ac8576f24a3bbcd95e54ca",
+   "raw_lines_minus_header": 11160903,
+   "shipped_in_repo_data": false
+  }
+ },
+ "shipped_samples": {
+  "player_play.sample_20k.csv": {
+   "bytes": 7767500,
+   "sha256": "284ce37e7fcf68ea765eb47c4328c754408815ce7699a5eae8cd7dbd5af94f26",
+   "rows": 20000,
+   "note": "first 20,000 parsed rows of the official file, re-serialized with pandas (to_csv default quoting); regenerate with pd.read_csv(official, nrows=20000).to_csv(index=False)"
+  },
+  "game_tracking_2023.sample_20k.csv": {
+   "bytes": 1759623,
+   "sha256": "91431de9b5ec0efb998342cdaa440c106f551a0512913132bbc4b6af0f8909e7",
+   "rows": 20000,
+   "note": "first 20,000 parsed rows of the official file, re-serialized with pandas (to_csv default quoting); regenerate with pd.read_csv(official, nrows=20000).to_csv(index=False)"
+  },
+  "game_tracking_2024.sample_20k.csv": {
+   "bytes": 1762106,
+   "sha256": "e047c952b0ba8786e793de527276b80087d2d2d57e5d2440950a1e2678ceaaa5",
+   "rows": 20000,
+   "note": "first 20,000 parsed rows of the official file, re-serialized with pandas (to_csv default quoting); regenerate with pd.read_csv(official, nrows=20000).to_csv(index=False)"
+  },
+  "game_tracking_2025.sample_20k.csv": {
+   "bytes": 1760298,
+   "sha256": "f50bb454da529ddd892f400ff67d6982ca3f46f8b31ee44a4be2a588bd3d61eb",
+   "rows": 20000,
+   "note": "first 20,000 parsed rows of the official file, re-serialized with pandas (to_csv default quoting); regenerate with pd.read_csv(official, nrows=20000).to_csv(index=False)"
+  }
+ }
+}
